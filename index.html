@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto HashForms</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hashtag-images">
+        <img
+          src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fa6d41686876ceccfc436dd310b9e49aa.cdn.bubble.io%2Fd219%2Ff1723121793047x871980606331503000%2Foie_transparent.png?w=32&amp;h=45&amp;auto=compress&amp;dpr=1&amp;fit=max"
+        />
+        <img
+          src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fa6d41686876ceccfc436dd310b9e49aa.cdn.bubble.io%2Fd219%2Ff1723121799406x669791932198187400%2Foie_transparent%2520%25281%2529-fotor-202408089554.png?w=96&amp;h=28&amp;auto=compress&amp;dpr=1&amp;fit=max"
+        />
+      </div>
+      <div class="main-container">
+        <div class="my-data">
+          <h1><i class="bx bx-user-circle"></i> Meus dados</h1>
+          <p>Confirme seus dados. Eles aparecerão na sua nota fiscal</p>
+          <form action="#" id="form">
+            <fieldset class="fieldset__personal-data">
+              <legend>Dados pessoais</legend>
+              <label for="name">Nome:</label>
+              <input type="text" id="name" />
+              <label for="cpf">CPF:</label>
+              <input type="number" id="cpf" />
+              <label for="phone-number">Telefone:</label>
+              <input type="number" id="phone-number" />
+            </fieldset>
+
+            <fieldset>
+              <legend>Endereço</legend>
+              <label for="CEP">CEP:</label>
+              <input type="number" id="CEP" />
+
+              <label for="adress">Rua:</label>
+              <input type="text" id="adress" />
+
+              <label for="number">Número:</label>
+              <input type="number" id="number" />
+
+              <label for="complement">Complemento:</label>
+              <input type="text" id="complement" />
+
+              <label for="district">Bairro:</label>
+              <input type="text" id="district" />
+
+              <label for="city">Cidade:</label>
+              <input type="text" id="city" />
+
+              <label for="state">Estado:</label>
+              <input type="text" id="state" />
+            </fieldset>
+            <button type="submit">AVANÇAR</button>
+          </form>
+        </div>
+        <div class="resume">
+          <h2><i class="bx bx-receipt"></i> Resumo</h2>
+          <p>Black Friday - Lote 01: R$ 1.200,00</p>
+          <p>Total: 12x R$ 100,00 ou R$ 1.200,00 à vista</p>
+          <hr />
+          <div class="discount">
+            <div class="discount-header">
+              <p>Aplicar cupom de desconto</p>
+              <i id="toggle-icon" class="bx bxs-chevron-down bx-chevron-up"></i>
+            </div>
+            <input type="text" placeholder="Digite o cupom de desconto" />
+            <button>Aplicar</button>
+            <p>Preço Total: R$ 1200.00</p>
+            <div class="credit-cards-image">
+              <i class="bx bxl-mastercard"></i>
+              <i class="bx bxl-visa"></i>
+              <i class="bx bxl-paypal"></i>
+              <i class="bx bxl-google"></i>
+              <i class="bx bx-barcode"></i>
+            </div>
+            <hr />
+            <h3>Você tem 15 dias de garantia</h3>
+            <p>
+              Experimente! Se não gostar ou ver que não é para você, devolvemos
+              o seu dinheiro! Sem letras miúdas.
+            </p>
+            <p>
+              <i class="bx bx-check-shield"></i> Suas informações estão seguras
+            </p>
+            <img src="safe.jpg" alt="" />
+            <hr />
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>
+          <a href="#">Termos de Uso</a> |
+          <a href="#">Política de Privacidade</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
