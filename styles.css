@@ -1,0 +1,106 @@
+/*RESET*/
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  height: 100svh;
+  background-color: #30343f;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.container {
+  background-color: #1e2749;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 100%;
+}
+
+.hashtag-images {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.my-data {
+  background-color: #273469;
+  border-radius: 5px;
+  padding: 70px;
+  width: 85%;
+}
+
+h1,
+.bx-user-circle {
+  color: #fb8500;
+}
+
+.my-data p {
+  color: white;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fb8500;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+legend {
+  color: #fb8500;
+}
+.form-group {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 700;
+  flex-basis: 100px;
+  color: white;
+}
+.form-group input {
+  background-color: #444444;
+  height: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #555;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+}
+form button {
+  background-color: #4caf50;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1em;
+  margin-top: 5px;
+  cursor: pointer;
+}
