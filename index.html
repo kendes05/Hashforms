@@ -115,12 +115,19 @@
           <p>Total: 12x R$ 100,00 ou R$ 1.200,00 à vista</p>
           <div class="discount">
             <div class="discount-header">
-              <span>Aplicar cupom de desconto</span>
-              <i id="toggle-icon" class="bx bxs-chevron-down bx-chevron-up"></i>
+              <span id="apply-discount-span">Aplicar cupom de desconto</span>
+              <i id="toggle-icon" class="bx bx-chevron-up"></i>
             </div>
-            <input type="text" placeholder="Digite o cupom de desconto" />
-            <button>Aplicar</button>
-            <p class="total-price">Preço Total: R$ 1200.00</p>
+            <input
+              type="text"
+              placeholder="Digite o cupom de desconto"
+              id="discount-input"
+            />
+            <button id="apply-discount-button">Aplicar</button>
+            <span class="discount-span" id="discount-span"
+              >Desconto de R$ 100,00 aplicado!</span
+            >
+            <p class="total-price" id="total-price">Preço Total: R$ 1200.00</p>
             <div class="credit-cards-images">
               <i class="bx bxl-mastercard"></i>
               <i class="bx bxl-visa"></i>
@@ -150,5 +157,6 @@
         </p>
       </footer>
     </div>
+    <script src="desconto.js"></script>
   </body>
 </html>

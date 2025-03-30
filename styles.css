@@ -162,16 +162,24 @@ form button {
   background-color: #fb8500;
   margin-top: 10px;
   color: white;
-  width: 25%;
+  width: 30%;
   border-radius: 5px;
   border: none;
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;
 }
+
+.discount-span {
+  margin-top: 20px;
+  color: #347a36;
+  display: none;
+}
+
 .total-price {
   margin-top: 15px;
 }
+
 .credit-cards-images {
   display: flex;
   justify-content: center;
