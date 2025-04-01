@@ -176,6 +176,12 @@ form button {
   display: none;
 }
 
+.wrong-discount {
+  color: red;
+  margin-top: 20px;
+  display: none;
+}
+
 .total-price {
   margin-top: 15px;
 }

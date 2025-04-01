@@ -3,6 +3,7 @@ const buttonDiscount = document.getElementById("apply-discount-button");
 const spanApply = document.getElementById("apply-discount-span");
 const icon = document.getElementById("toggle-icon");
 const spanDiscount = document.getElementById("discount-span");
+const spanWrongDiscount = document.getElementById("wrong-discount-span");
 const totalPrice = document.getElementById("total-price");
 
 spanApply.addEventListener("click", () => {
@@ -20,13 +21,16 @@ spanApply.addEventListener("click", () => {
 });
 
 buttonDiscount.addEventListener("click", () => {
-  if (input.value.trim() !== "") {
+  if (input.value.trim().toUpperCase() === "DESCONTO10") {
     spanDiscount.style.display = "block";
+    spanWrongDiscount.style.display = "none";
     spanDiscount.textContent = `Desconto de ${input.value.toUpperCase()} aplicado!`;
     totalPrice.textContent = "Preço Total: R$ 1080.00";
     input.value = "";
   } else {
-    alert("Cupom de desconto inválido");
+    spanWrongDiscount.style.display = "block";
+    spanDiscount.style.display = "none";
+    input.value = "";
   }
 });
 
